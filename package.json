@@ -1,0 +1,32 @@
+{
+  "name": "101282062_comp3123_assig1",
+  "version": "1.0.0",
+  "description": "Basic NodeJS application using expressJS framework to create a REST API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MondiKoci/101282062_comp3123_assig1.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "REST API",
+    "expressJS"
+  ],
+  "author": "Mondi Koci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MondiKoci/101282062_comp3123_assig1/issues"
+  },
+  "homepage": "https://github.com/MondiKoci/101282062_comp3123_assig1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
