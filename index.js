@@ -11,7 +11,7 @@ router.get("/user", function(req, res) {
         id:u.id, 
         name:u.name, 
         emai:u.email, 
-        address:u.address, 
+        address:u.address.street +", "+ u.address.city +", "+ u.address.zipcode, 
         phone:u.phone
       })}): {message: "user not found"}
   res.send(user)
